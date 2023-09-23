@@ -1,0 +1,17 @@
+div {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+
+.block1 {
+    background-color: blueviolet;
+}
+.block2 {
+    background-color: chocolate;
+}
+.block3 {
+    background-color: aquamarine;
+}
