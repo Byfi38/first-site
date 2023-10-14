@@ -59,3 +59,32 @@ ul {
     opacity: 100;
     transform: rotate(360deg) scale(1);
 }
+.hidden-block2 {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(107, 112, 189);
+    opacity: 0;
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+}
+#rad:checked ~ .hidden-block2 {
+    opacity: 100;
+
+}
+.hidden-block3 {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(189, 151, 107);
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    transform: rotate(0) scale(0);
+    justify-content: center;
+}
+#tepi:checked ~ .hidden-block3 {
+    opacity: 100;
+    transform: rotate(360deg) scale(1);
+}
